@@ -1,4 +1,4 @@
-# limit-word-angular
+# Angular limit word filter
 This is a simple filter to limit words in angular
 
 ## Installation
