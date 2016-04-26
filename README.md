@@ -26,8 +26,8 @@ Then add a `<script>` to your `index.html`:
 ```
 {{article.title | limitWord : 8 : '[...]'}}
 ```
-By default the `limitWord` is 8 and the `moreChar` is "[...]" if you like this settings you do not need to specify those like so.
+By default the `limitWord` is 8 and the `moreChar` is "[...]" if you like this settings you do not need to specify those, like so.
 ```
 {{article.title | limitWord}}
 ```
-it will work the same way.
+It will work the same way.
