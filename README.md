@@ -22,3 +22,12 @@ Then add a `<script>` to your `index.html`:
 <script src="/node_modules/angular-limit-word/limitWordFilter.js"></script>
 ```
 
+# Using in your app
+```
+{{article.title | limitWord : 8 : '[...]'}}
+```
+By default the `limitWord` is 8 and the `moreChar` is "[...]" if you like this settings you do not need to specify those like so.
+```
+{{article.title | limitWord}}
+```
+it will work the same way.
